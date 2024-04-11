@@ -1,7 +1,7 @@
 CC = /bin/g++
-CCFLAGS = -g -std=c++11
+CCFLAGS = -g -std=c++1y
 INCLUDES =
-LIBRARIES = 	 -lpthread -lrt
+LIBRARIES = -lboost_system -lboost_thread -lpthread -lrt 
 # LIBRARIES = -lpthread
 EXECUTABLES = prefix-sum
 

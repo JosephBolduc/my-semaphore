@@ -156,7 +156,7 @@ int main( int argc, char** argv )
 
    }
 
-   delete data;
+   delete[] data;
    data = NULL;
 
    delete rendevousz;
